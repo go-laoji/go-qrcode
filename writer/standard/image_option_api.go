@@ -102,6 +102,7 @@ func WithLogoImageFileJPEG(f string) ImageOption {
 		}
 
 		oo.logo = img
+		fd.Close()
 	})
 }
 
